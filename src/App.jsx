@@ -4,6 +4,7 @@ import SignUp from "./pages/signup"
 import ForgotPassword from "./pages/forgot-password"
 import Dashboard from "./pages/dashboard"
 import Landing from "./pages/landing"
+import CourseDetail from "./pages/course-detail"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/course/:id" element={<CourseDetail />} />
       </Routes>
     </BrowserRouter>
   )
