@@ -3,7 +3,7 @@
 @import "shadcn/tailwind.css";
 @import "@fontsource-variable/geist";
 
-@custom-variant dark (&:is(.dark *));
+/* @custom-variant dark (&:is(.dark *)); */
 
 :root {
   --text: #6b6375;
@@ -253,10 +253,10 @@ code {
   --font-heading: var(--font-sans);
 }
 
-@layer base {
+/* @layer base {
   * {
     @apply border-border outline-ring/50;}
   body {
     @apply bg-background text-foreground;}
   html {
-    @apply font-sans;}}
+    @apply font-sans;}} */
