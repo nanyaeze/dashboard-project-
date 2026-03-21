@@ -3,12 +3,13 @@ import Login from "./pages/login"
 import SignUp from "./pages/signup"
 import ForgotPassword from "./pages/forgot-password"
 import Dashboard from "./pages/dashboard"
+import Landing from "./pages/landing"
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Login />} />  {/* Replace with Landing later */}
+        <Route path="/landing" element={<Landing />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
