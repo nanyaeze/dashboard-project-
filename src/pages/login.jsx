@@ -3,9 +3,12 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Checkbox } from "@/components/ui/checkbox"
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 
 export default function Login() {
+
+  const navigate = useNavigate();
+
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 p-4">
       <Card className="w-full max-w-md">
@@ -35,7 +38,7 @@ export default function Login() {
           </form>
         </CardContent>
         <CardFooter className="flex flex-col space-y-4">
-          <Button className="w-full">Sign In</Button>
+          <Button onClick={() => navigate("/dashboard")} className="w-full">Sign In</Button>
           <p className="text-sm text-gray-600">
             Don't have an account?{" "}
             <Link to="/signup" className="text-blue-600 hover:underline">Sign Up</Link>
