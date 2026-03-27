@@ -46,14 +46,14 @@ export default function Landing() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="flex-1 text-center md:text-left">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 leading-tight">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-black h-56 mb-4 leading-tight">
                 Unleash Your Inner <span className="text-green-600">Prowess</span>
               </h1>
               <p className="text-lg text-gray-600 mb-8 max-w-xl mx-auto md:mx-0">
                 Discover the ultimate dashboard experience – manage your courses, track progress,
                 and achieve your goals with style.
               </p>
-              <div className="space-x-4 h-56">
+              <div className="space-x-4">
                 <Link to="/signup">
                   <Button size="lg" className="bg-green-600 hover:bg-green-700 shadow-lg">
                     Get Started
