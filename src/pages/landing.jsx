@@ -49,7 +49,7 @@ export default function Landing() {
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-black mb-4 leading-tight">
                 Unleash Your Inner <span className="text-green-600">Prowess</span>
               </h1>
-              <p className="text-lg h-20 text-gray-600 mb-8 max-w-xl mx-auto md:mx-0">
+              <p className="text-lg h-30 text-gray-600 mb-8 max-w-xl mx-auto md:mx-0">
                 Discover the ultimate dashboard experience – manage your courses, track progress,
                 and achieve your goals with style.
               </p>
@@ -196,9 +196,9 @@ export default function Landing() {
                 <li><Link to="/terms" className="hover:text-white">Terms & Conditions</Link></li>
               </ul>
             </div>
-            <div>
+            <div className="text-center">
               <h3 className="text-lg font-semibold mb-4">Connect</h3>
-              <div className="flex space-x-4">
+              <div className="flex justify-center space-x-4">
                 <a href="#" className="text-gray-400 hover:text-white">
                   <Facebook className="w-5 h-5" />
                 </a>
@@ -210,7 +210,7 @@ export default function Landing() {
                 </a>
               </div>
               <div className="mt-4 space-y-2 text-sm text-gray-400">
-                <div className="flex items-center gap-2">
+                <div className="flex items-center justify-center gap-2">
                   <Mail className="w-4 h-4" />
                   <span>hello@aceup.com</span>
                 </div>
