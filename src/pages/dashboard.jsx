@@ -72,7 +72,7 @@ export default function Dashboard() {
       <aside className="hidden md:flex md:w-64 md:flex-col md:fixed md:inset-y-0 bg-white border-r shadow-sm">
         <div className="flex-1 flex flex-col overflow-y-auto">
           <div className="flex items-center justify-center h-16 px-4 border-b">
-            <h1 className="text-xl font-bold text-green-700">SlothUI</h1>
+            <h1 className="text-xl font-bold text-green-700">AceUP</h1>
           </div>
           <nav className="flex-1 px-2 py-4 space-y-1">
             <Link
@@ -112,7 +112,7 @@ export default function Dashboard() {
           <aside className="relative flex-1 flex flex-col w-64 max-w-xs bg-white shadow-xl">
             <div className="flex-1 flex flex-col overflow-y-auto">
               <div className="flex items-center justify-center h-16 px-4 border-b">
-                <h1 className="text-xl font-bold text-green-700">SlothUI</h1>
+                <h1 className="text-xl font-bold text-green-700">AceUP</h1>
               </div>
               <nav className="flex-1 px-2 py-4 space-y-1">
                 <Link

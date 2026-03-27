@@ -29,7 +29,7 @@ export default function ForgotPassword() {
           </div>
           <div className="space-y-2">
             <Label htmlFor="email">Email Address</Label>
-            <Input id="email" type="email" value="elementary221b@gmail.com" disabled className="bg-gray-100" />
+            <Input id="email" type="email" value="ifunanyaeze@gmail.com" disabled className="bg-gray-100" />
           </div>
           <div className="space-y-2">
             <Label htmlFor="otp">6-Digit OTP</Label>
@@ -53,7 +53,7 @@ export default function ForgotPassword() {
         </CardContent>
       </Card>
       <footer className="mt-8 text-sm text-gray-500">
-        Copyright 2025 slothUI ©{" "}
+        Copyright 2026 AceUP ©{" "}
         <Link to="/privacy" className="hover:underline mx-2">Privacy Policy</Link>
         <Link to="/terms" className="hover:underline mx-2">Terms & Conditions</Link>
       </footer>

@@ -22,7 +22,7 @@ export default function Landing() {
       <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md shadow-sm">
         <div className="container mx-auto px-4 py-3 flex justify-between items-center">
           <div className="text-2xl font-bold text-green-700">
-            <Link to="/">SlothUI</Link>
+            <Link to="/">AceUP</Link>
           </div>
           <div className="hidden md:flex space-x-6">
             <Link to="/" className="hover:text-green-600 transition">Home</Link>
@@ -42,12 +42,12 @@ export default function Landing() {
       </nav>
 
       {/* Hero Section with Image */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-green-50 via-white to-emerald-50 py-20 md:py-28">
+      <section className="relative overflow-hidden bg-linear-to-br from-green-50 via-white to-emerald-50 py-20 md:py-28">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="flex-1 text-center md:text-left">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 leading-tight">
-                Unleash Your Inner <span className="text-green-600">Sloth 4.0</span>
+                Unleash Your Inner <span className="text-green-600">Prowess</span>
               </h1>
               <p className="text-lg text-gray-600 mb-8 max-w-xl mx-auto md:mx-0">
                 Discover the ultimate dashboard experience – manage your courses, track progress,
@@ -88,7 +88,7 @@ export default function Landing() {
       <section id="features" className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900">Why Choose SlothUI?</h2>
+            <h2 className="text-3xl font-bold text-gray-900">Why Choose AceUP?</h2>
             <p className="text-gray-600 mt-2">Designed for modern learners and creators</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -113,7 +113,7 @@ export default function Landing() {
                 <CardDescription>Access hundreds of lessons</CardDescription>
               </CardHeader>
               <CardContent>
-                <p>Browse our curated collection of courses from the Fake Store API – learn at your own pace.</p>
+                <p>Browse our curated collection of courses from – learn at your own pace.</p>
               </CardContent>
             </Card>
             <Card className="text-center hover:shadow-lg transition-shadow">
@@ -144,9 +144,9 @@ export default function Landing() {
               />
             </div>
             <div className="flex-1">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">About SlothUI</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">About AceUP</h2>
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
-                SlothUI is a modern dashboard application designed to help learners manage their
+                AceUP is a modern dashboard application designed to help learners manage their
                 educational journey. We combine elegant design with powerful features to make
                 learning enjoyable. Our platform integrates public APIs to bring you real-world
                 content and a seamless experience.
@@ -175,9 +175,9 @@ export default function Landing() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-lg font-semibold mb-4">SlothUI</h3>
+              <h3 className="text-lg font-semibold mb-4">AceUP</h3>
               <p className="text-sm text-gray-400">
-                Unleash your inner sloth with a modern dashboard experience.
+                Unleash your inner prowess with a modern dashboard experience.
               </p>
             </div>
             <div>
@@ -212,17 +212,17 @@ export default function Landing() {
               <div className="mt-4 space-y-2 text-sm text-gray-400">
                 <div className="flex items-center gap-2">
                   <Mail className="w-4 h-4" />
-                  <span>hello@slothui.com</span>
+                  <span>hello@aceup.com</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Phone className="w-4 h-4" />
-                  <span>+1 (555) 123-4567</span>
+                  <span>+(234) 679-465-1137</span>
                 </div>
               </div>
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-6 text-center text-sm text-gray-400">
-            Copyright 2025 SlothUI ©. All rights reserved.
+            Copyright 2026 AceUP ©. All rights reserved.
           </div>
         </div>
       </footer>

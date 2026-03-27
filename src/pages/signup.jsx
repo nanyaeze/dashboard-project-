@@ -10,17 +10,17 @@ export default function SignUp() {
       <Card className="w-full max-w-md">
         <CardHeader className="text-center">
           <CardTitle className="text-3xl">Sign Up For Free.</CardTitle>
-          <CardDescription>Unleash your inner sloth 4.0 right now.</CardDescription>
+          <CardDescription>Unleash your inner prowess right now.</CardDescription>
         </CardHeader>
         <CardContent>
           <form className="space-y-4">
             <div className="space-y-2">
               <Label htmlFor="fullname">Full Name</Label>
-              <Input id="fullname" defaultValue="X_AE_A_13b" />
+              <Input id="fullname" defaultValue="Ifunanya Eze" />
             </div>
             <div className="space-y-2">
               <Label htmlFor="email">Email Address</Label>
-              <Input id="email" type="email" defaultValue="elementary221b@gmail.com" />
+              <Input id="email" type="email" defaultValue="ifunanyaeze@gmail.com" />
             </div>
             <div className="space-y-2">
               <Label htmlFor="password">Password</Label>
@@ -34,7 +34,7 @@ export default function SignUp() {
           </form>
         </CardContent>
         <CardFooter className="flex flex-col space-y-4">
-          <Button className="w-full">Sign Up 🔒</Button>
+          <Button className="w-full">Sign Up </Button>
           <p className="text-sm text-gray-600">
             Already have an account?{" "}
             <Link to="/login" className="text-blue-600 hover:underline">Sign In</Link>

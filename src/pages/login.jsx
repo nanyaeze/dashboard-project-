@@ -14,14 +14,14 @@ export default function Login() {
       <Card className="w-full max-w-md">
         <CardHeader className="text-center">
           <CardTitle className="text-3xl">Sign In To Your Account.</CardTitle>
-          <CardDescription>Unleash your inner sloth 4.0 right now.</CardDescription>
+          <CardDescription>Unleash your inner prowess right now.</CardDescription>
         </CardHeader>
         <CardContent>
           <form>
             <div className="space-y-4">
               <div className="space-y-2">
                 <Label htmlFor="email">Email Address</Label>
-                <Input id="email" type="email" placeholder="your@email.com" defaultValue="elementary221b@gmail.com" />
+                <Input id="email" type="email" placeholder="your@email.com" defaultValue="ifunanyaeze@gmail.com" />
               </div>
               <div className="space-y-2">
                 <Label htmlFor="password">Password</Label>
