@@ -53,7 +53,7 @@ export default function Landing() {
                 Discover the ultimate dashboard experience – manage your courses, track progress,
                 and achieve your goals with style.
               </p>
-              <div className="space-x-4">
+              <div className="space-x-4 h-56">
                 <Link to="/signup">
                   <Button size="lg" className="bg-green-600 hover:bg-green-700 shadow-lg">
                     Get Started
