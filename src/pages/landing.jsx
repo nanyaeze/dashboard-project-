@@ -49,7 +49,7 @@ export default function Landing() {
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-black mb-4 leading-tight">
                 Unleash Your Inner <span className="text-green-600">Prowess</span>
               </h1>
-              <p className="text-lg h-12 text-gray-600 mb-8 max-w-xl mx-auto md:mx-0">
+              <p className="text-lg h-20 text-gray-600 mb-8 max-w-xl mx-auto md:mx-0">
                 Discover the ultimate dashboard experience – manage your courses, track progress,
                 and achieve your goals with style.
               </p>
