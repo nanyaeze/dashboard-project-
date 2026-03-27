@@ -45,7 +45,7 @@ export default function Landing() {
       <section className="relative overflow-hidden bg-linear-to-br from-green-50 via-white to-emerald-50 py-20 md:py-28">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center gap-12">
-            <div className="flex-1 text-center md:text-left">
+            <div className="relative z-10 flex-1 text-center md:text-left">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-black mb-4 leading-tight">
                 Unleash Your Inner <span className="text-green-600">Prowess</span>
               </h1>

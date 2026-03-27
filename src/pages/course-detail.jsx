@@ -79,7 +79,7 @@ export default function CourseDetail() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 py-8 px-4">
+    <div className="min-h-screen bg-gray-50 py-8 px-4 flex items-center">
       <div className="container mx-auto max-w-4xl">
         <Link to="/dashboard" className="inline-flex items-center text-green-600 hover:underline mb-6">
           <ArrowLeft className="w-4 h-4 mr-1" />
